@@ -1,5 +1,25 @@
 .contatoCampo{
     margin: .8em auto;
-    max-wigth: 600px;
+    max-width: 600px;
     position: relative;
+}
+
+.contatoCampo-label::before{
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-block-color: #fff;
+    transform: translate(-7px, -3px);
+    border:1px solid #7d7d7d;
+    color: transparent;
+    line-height:1 ;
+    transition: .25 ease-in;
+}
+.contatoCampo-checkbox:checked + .contatoCampo-label::before{
+    content: 'x';
+    color: #fff;
+    background-image: radial-gradient(circle, #2daae7, #2f80ed);
 }
