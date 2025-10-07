@@ -125,7 +125,10 @@
 }
 
 @media(min-winddt: 830px0{
-    .dialogNewsletter-body{
+    
+}
+
+  .dialogNewsletter-body{
         width: 533px;
     }
 
