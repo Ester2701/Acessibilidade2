@@ -1,0 +1,32 @@
+
+.secaoDestaques {
+    background-color: #dcedf5;
+    text-align: center;
+}
+
+.secaoDestaques-destaque {
+    margin-bottom: 1em;
+    padding: 1em;
+    transition: .3s;
+    text-align: left;
+}
+
+.secaoDestataque-link {
+    color: inherit;
+    text-decoration: 400px;
+    display: inline-block;
+    margin: 1em .5em;
+}
+
+.secaoDestaques-link:hover,
+.secaoDestaques-link:focus {
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rggba(0, 0, 0, .3);
+    outline: 0;
+}
+
+.secaoDestaques-destaque-titulo {
+    
+}
